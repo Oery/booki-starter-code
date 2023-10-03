@@ -121,8 +121,24 @@ a {
     margin-bottom: 5px;
 }
 
+/****** Footer ***********/
+.main-footer {
+    margin-top: 35px;
+    background-color: var(--main-bg-color);
+    padding: 20px;
+}
 
+.main-footer nav section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
 
+.main-footer nav {
+    display: flex;
+    flex-direction: row;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -163,5 +179,12 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
-}
+    .main-footer {
+        margin-top: 35px;
+        padding: 30px;
+    }
+
+    .main-footer nav {
+        flex-direction: column;
+        gap: 50px;
+    }
