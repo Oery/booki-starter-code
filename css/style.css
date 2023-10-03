@@ -1,6 +1,8 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -32,7 +34,11 @@ a {
 
 .section-title {
     margin: 0;
-    font-size: 22px;
+    font-size: 1.375em;
+}
+
+.section-subtitle {
+    margin-top: 8px;
 }
 
 .card {
@@ -411,7 +417,6 @@ a {
 
     .populaires {
         width: 100%;
-        margin-top: 50px;
     }
 
     .populaires-cards {
