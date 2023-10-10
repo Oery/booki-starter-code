@@ -618,6 +618,6 @@ a {
 /* Very small screens */
 @media (max-width: 656px) {
     .filtre-button {
-        flex: 1 1 100%;
+        flex: 1 1 48%;
     }
 }
