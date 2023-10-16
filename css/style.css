@@ -559,7 +559,7 @@ a {
     }
 
     .filtre-button {
-        flex: 1 1 48%;
+        flex: 1 1 calc(50% - 7.5px);
     }
 
     .filtre-button > span {
@@ -639,5 +639,12 @@ a {
     .main-footer nav {
         flex-direction: column;
         gap: 50px;
+    }
+}
+
+/* Fix transition tablette > mobile sur Chrome */
+@media (max-width: 803px) {
+    .filtre-button {
+        flex: 1 1 calc(50% - 7.5px);
     }
 }
