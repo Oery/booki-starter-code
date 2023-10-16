@@ -192,6 +192,18 @@ a {
     background-color: white;
 }
 
+.filtre-icon {
+    height: 22px;
+    width: 22px;
+    line-height: 22px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.icon-wide {
+    font-size: 1.125em;
+}
+
 .filtre-button:hover {
     background-color: var(--filter-bg-color);
 }
