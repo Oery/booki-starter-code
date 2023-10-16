@@ -406,6 +406,10 @@ a {
     gap: 15px;
 }
 
+.nav-section-title {
+    font-size: 1.125em;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
